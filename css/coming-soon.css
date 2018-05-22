@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'CenturyGothic'
+    src: url('fonts/gothic.ttf')
+}
+
 html {
   height: 100%;
 }
@@ -8,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Merriweather';
+  font-family: CenturyGothic;
   font-weight: 700;
 }
 
@@ -16,7 +21,7 @@ body {
   height: 100%;
   min-height: 35rem;
   position: relative;
-  font-family: 'Source Sans Pro';
+  font-family: CenturyGothic;
   font-weight: 300;
 }
 
